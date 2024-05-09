@@ -21,3 +21,19 @@ $num1 = 20
 $num2 = 20%3
 ($num2 -ne 2) -and $true
 
+$word = "powershell"
+$lst = $word.ToCharArray()
+$lst.GetType()
+foreach($w in $lst){
+Write-Output "S is $s"
+}
+
+$count = 0
+do
+{
+$count++;
+if($count -eq 6){
+continue
+#brake
+}
+
